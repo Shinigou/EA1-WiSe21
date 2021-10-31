@@ -1,0 +1,21 @@
+body{
+background-color: black;
+color: white;
+font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+text-decoration: none;
+color: white;
+font-size: 30px;
+font-family: 'Courier New', Courier, monospace;
+}
+
+
+a:link { color: white } /* unbesuchte Links */
+a:hover {    color:purple} /* Benutzer fährt mit der Maus darüber */
+a:active { color: lime } /* aktive Links */
+
+p:target {
+    background-color: yellow;
+}
