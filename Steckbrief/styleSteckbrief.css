@@ -1,0 +1,19 @@
+body {
+	font-family: 'Courier New', Courier, monospace;
+	font-size:medium;
+	margin-left:1.5%;
+	margin-top: 1.5%;
+	background: black;
+}
+
+
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	color: maroon;
+}
+a:active{
+	color:orangered
+}
