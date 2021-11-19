@@ -1,0 +1,37 @@
+body{
+background-image: url(Images/bg.png);
+}
+
+.card{
+position:absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+}
+
+h1{
+position:absolute;
+color: white;
+left: 11%;
+top: 8%;
+}
+
+p{
+position: absolute;
+color: white;
+left: 11%;
+top: 38%;
+}
+
+.pinguin{
+position: absolute;
+left: 77.5%;
+top: 47%;
+}
+
+.plant{
+position: absolute;
+top: -13%;
+left: -10.5%;
+}
+

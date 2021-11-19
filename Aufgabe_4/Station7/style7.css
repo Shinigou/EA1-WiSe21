@@ -1,0 +1,63 @@
+body{
+    background-image: url(Images/bg.png);
+    color: white;
+}
+
+.card{
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    }
+
+.gifts{
+    position: absolute;
+    left: 55.5%;
+    top: 60.9%;
+    z-index: 8;
+}
+
+.plant{
+    position: absolute;
+    left: 20.5%;
+    top: 12%;
+}
+
+p{
+    position: absolute;
+    left: 30%;
+    top: 56%;
+    z-index: 9;
+}
+
+h1{
+    position: absolute;
+    left: 30%;
+    top: 41%;
+    z-index: 10;
+}
+
+.star1{
+    position: absolute;
+    left: 32.5%;
+    top: 35.5%;
+}
+
+.star2{
+    position: absolute;
+    left: 42%;
+    top: 28%;
+}
+
+.star3{
+    position: absolute;
+    left: 53%;
+    top: 32.5%;
+    z-index: 7;
+}
+
+.fire{
+    position: absolute;
+    left: 52%;
+    top: 24%;
+}

@@ -1,0 +1,48 @@
+body{
+    background-image: url(Images/bg.png);
+}
+
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    position: absolute;
+    color: white;
+    left: 8%;
+    top: 7%;
+}
+
+
+#button{
+    position:absolute;
+    background-color: grey;
+}
+
+.Formular{
+    position:absolute;
+    top: 23%;
+    left: 8%;
+    color: white;
+  }
+
+  #buttonword1{
+      position:absolute;
+      left: 7%;
+      top: 77.7%;
+  }
+
+  #buttonword2{
+    position:absolute;
+    left: 23.5%;
+    top: 77.7%;
+  }
+
+  button{
+      border-radius: 4px;
+      width: 31%;
+      background-color: whitesmoke;
+  }

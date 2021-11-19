@@ -1,0 +1,104 @@
+.box{
+    position: absolute;
+    background:#001920;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 160%;
+    width:13%;
+    border-radius: 4px;
+    padding: 3px;
+    letter-spacing: 2.5px;
+    left: 37%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: lightskyblue;
+}
+
+.animation{
+    animation-name: Schneeflocke;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+
+body{
+    background-image: url(../Aufgabe_4/snowman-g74935f751_1920.jpg);
+    background-size: 100%;
+}
+
+.Schneeflocke1{
+    animation: fall 17s infinite ease-in-out;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+}
+
+@keyframes fall {
+    0% {top:-5%;}
+    100% {top:90%;}
+}
+
+.Schneeflocke2{
+    animation: fall 10s infinite ease-in-out;
+    position: absolute;
+    left: 10%;
+    top: 50%;
+}
+
+@keyframes fall {
+    0% {top:-5%;}
+    100% {top:50%;}
+}
+
+.Schneeflocke4{
+    animation: fall 14s infinite ease-in-out;
+    position: absolute;
+    left: 42%;
+    top: 50%;
+}
+
+@keyframes fall {
+    0% {top:-1%;}
+    100% {top:85%;}
+}
+
+.Schneeflocke3{
+    animation: fall 20s infinite ease-in-out;
+    position: absolute;
+    left: 60%;
+    top: 100%;
+}
+
+@keyframes fall {
+    0% {top:-5%;}
+    100% {top:81%;}
+}
+
+.Schneeflocke5{
+    animation: fall 30s infinite ease-in-out;
+    position: absolute;
+    left: 80%;
+    top: 100%;
+}
+
+@keyframes fall {
+    0% {top:-5%;}
+    100% {top:88%;}
+}
+
+p{
+    position: absolute;
+    font-family: fantasy;
+    color: white;
+    text-align: center;
+    width: 110%;
+    top: 43%;
+    
+}
+

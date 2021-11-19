@@ -1,0 +1,96 @@
+body{
+    background-image: url(images/bg.png);
+    }
+
+.card{
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    position:absolute;
+    color: white;
+    left: 7%;
+    top: 9%;
+}
+
+.stern1{
+    position: absolute;
+    top: 51.5%;
+    left: 8.3%;
+}
+
+.stern1:hover{
+content: url(images/stern_hover.png);
+}
+
+.stern2{
+    position: absolute;
+    top: 34%;
+    left: 25.5%;
+}
+
+.stern2:hover{
+    content: url(images/stern_hover.png);
+}
+
+.stern3{
+    position: absolute;
+    top: 67%;
+    left: 41.8%;
+}
+
+.stern3:hover{
+    content: url(images/stern_hover.png);
+}
+
+.stern4{
+    position: absolute;
+    top: 49.5%;
+    left: 70%;
+}
+
+.stern4:hover{
+    content: url(images/stern_hover.png);
+}
+   
+body{
+    background-image: url(Images/bg.png);
+    }
+    
+    .card{
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    }
+    
+    h1{
+    position:absolute;
+    color: white;
+    left: 11%;
+    top: 8%;
+    }
+    
+    p{
+    position: absolute;
+    color: white;
+    left: 11%;
+    top: 38%;
+    }
+    
+    .pinguin{
+    position: absolute;
+    left: 77.5%;
+    top: 47%;
+    }
+    
+    .plant{
+    position: absolute;
+    top: -13%;
+    left: -10.5%;
+    }
+    
+  
