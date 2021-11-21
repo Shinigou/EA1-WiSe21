@@ -1,8 +1,8 @@
 body {
 	font-family: 'Courier New', Courier, monospace;
 	font-size:medium;
-	margin-left:1.5%;
-	margin-top: 1.5%;
+	margin-left:2%;
+	margin-top: 2%;
 	background: black;
 }
 
@@ -11,9 +11,7 @@ a{
 	text-decoration: none;
 	color: white;
 }
+
 a:hover{
-	color:#721413;
-}
-a:active{
-	color:orangered
+	color:#A1BC5D;
 }
