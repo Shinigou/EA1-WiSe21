@@ -4,12 +4,13 @@ body {
 	margin-left:2%;
 	margin-top: 2%;
 	background: black;
+	line-height: 120%;
 }
-
 
 a{
 	text-decoration: none;
 	color: white;
+	font-size: normal;
 }
 
 a:hover{
