@@ -56,10 +56,6 @@ content: url(images/stern_hover.png);
     content: url(images/stern_hover.png);
 }
    
-body{
-    background-image: url(Images/bg.png);
-    }
-    
     .card{
     position:absolute;
     left: 50%;

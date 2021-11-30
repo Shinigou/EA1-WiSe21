@@ -3,61 +3,65 @@ body{
     color: white;
 }
 
+.container{
+    position: absolute;
+}
+
 .card{
-    position:absolute;
+    position:relative;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     }
 
 .gifts{
-    position: absolute;
+    position: relative;
     left: 55.5%;
     top: 60.9%;
     z-index: 1;
 }
 
 .plant{
-    position: absolute;
+    position: relative;
     left: 20.5%;
     top: 12%;
 }
 
 p{
-    position: absolute;
+    position: relative;
     left: 30%;
     top: 56%;
     z-index: 1;
 }
 
 h1{
-    position: absolute;
+    position: relative;
     left: 30%;
     top: 41%;
     z-index: 1;
 }
 
 .star1{
-    position: absolute;
+    position: relative;
     left: 32.5%;
     top: 35.5%;
 }
 
 .star2{
-    position: absolute;
+    position: relative;
     left: 42%;
     top: 28%;
 }
 
 .star3{
-    position: absolute;
+    position: relative;
     left: 53%;
     top: 32.5%;
     z-index: 1;
 }
 
 .fire{
-    position: absolute;
+    position: relative;
     left: 52%;
     top: 24%;
 }
