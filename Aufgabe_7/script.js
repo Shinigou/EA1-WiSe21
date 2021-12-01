@@ -27,12 +27,12 @@ window.addEventListener("load", function () {
 function play() {
     setInterval(function () {
         (sound[0]).play();
-    }, 1000);
+    }, 500);
     setInterval(function () {
         (sound[1]).play();
-    }, 3000);
+    }, 1000);
     setInterval(function () {
         (sound[2]).play();
-    }, 5000);
+    }, 1500);
 }
 //# sourceMappingURL=script.js.map
