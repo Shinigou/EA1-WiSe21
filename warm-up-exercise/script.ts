@@ -29,14 +29,6 @@ document.querySelector("#liste").innerHTML += "<p>" + names[index] + "</p>";
 }
 }
 
-function buttonAbsteigendClicked() {
-document.querySelector("#liste").innerHTML = "";
-
-for (var index: number = names.length-1; index >= 0; index--) {
-console.log(index);
-document.querySelector("#liste").innerHTML += "<p>" + names[index] + "</p>";
-}
-}
 
 
 function buttonAlleAusserClicked() {

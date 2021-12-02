@@ -22,9 +22,9 @@ window.addEventListener("load", function () {
     document.querySelector(".yellow1").addEventListener("click", function () { (sound[7]).play(); });
     document.querySelector(".yellow2").addEventListener("click", function () { (sound[8]).play(); });
     /*Aufgabe 7.2 */
-    document.querySelector(".playbutton").addEventListener("click", function () { playbutton(); });
+    document.querySelector(".playbutton").addEventListener("click", function () { play(); });
 });
-function playbutton() {
+function play() {
     setInterval(function () {
         (sound[0]).play();
     }, 500);

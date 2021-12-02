@@ -26,10 +26,10 @@ window.addEventListener ( "load", function () {
     
 
     /*Aufgabe 7.2 */
-    document.querySelector(".playbutton").addEventListener("click", function(): void{ playbutton()});
+    document.querySelector(".playbutton").addEventListener("click", function(): void{ play()});
 })
 
-function playbutton() {
+function play() {
 setInterval(function() {
     (sound[0]).play();
 },500);
