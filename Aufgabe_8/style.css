@@ -156,3 +156,8 @@ body{
         opacity: 40%;
     }
     
+    .control {
+        display:flexbox;
+        color: white;
+        place-items: center;
+    }
